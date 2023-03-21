@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body class="body">
+
+
+    <div class="sidebar p-0">
+      <nav class="navbar bg-body-tertiary p-0" >
+        <div class="container-fluid p-3" style="flex-wrap: wrap; justify-content: flex-start; background-color: rgb(35, 77, 168);">
+          <a class="navbar-brand" href="#">
+            <img src="/01.jpg" style="border-radius: 50%;" alt="Logo" width="60" height="55" class="d-inline-block align-text-top">
+          </a>
+          <div>
+            <h4 id="name" style="font-size: 17px; font-weight: bold; color: white;">Rohit Patle</h4>
+            <h6 id="online" style="font-size: 13px; color: rgb(18, 231, 18);"><i class="bi bi-check-circle-fill"></i> Online</h6>
+          </div>
+        </div>
+      </nav>
+
+
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 my-1" style="padding-left: 20px;"> 
+        <h5 class="pt-2 pb-2 text-light" id="heading">General</h5>
+        <hr style="padding: 0px; margin: 0px;">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bii bi-speedometer" id="a1"></i> <span class="spn">Dashboard</span>
+          </a>
+          <ul class="spn dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"> <i class="bii bi-clock" id="a2"></i> <span class="spn">Widgets</span> </a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bii bi-x-diamond-fill" id="a3"></i> <span class="spn">Elements</span> 
+          </a>
+          <ul class="spn dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#"><i class="bii bi-table" id="a4"></i> <span class="spn" >Tables</span> </a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bii bi-google-play" id="a5"></i> <span class="spn">Apps</span> 
+          </a>
+          <ul class="spn dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#"><i class="bii bi-file-spreadsheet-fill" id="a6"></i> <span class="spn" id="table">Pricing Table</span> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"><i class="bii bi-person-lines-fill" id="a11"></i> <span class="spn">Contact</span> </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="spn2"><i class="bii bi-file-earmark-break-fill" id="a7"></i></span> <span class="spn">Additional Pages</span> 
+          </a>
+          <ul class="spn dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#"><i class="bii bi-map-fill" id="a8"></i> <span class="spn">Maps</span> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"><i class="bii bi-bar-chart-line" id="a9"></i> <span class="spn">Charts</span> </a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#"><i class="bii bi-gear-fill" id="a10"></i> <span class="spn">Settings</span> </a>
+        </li>
+      </ul>
+      
+    </div>
+    
+
+
+    <!-- secend sec-->
+    <div class=" second p-0" style="margin: 0px;">
+    <section class="home-section ">
+    <nav class="navbar navbar-expand navbar-dark bg-dark px-2 " style="display: flex;
+    justify-content: space-between;">
+        <div class="side-nav-button p-2 me-3 text-light justify-content-start" style="align-items: flex-start; background-color: orangered;">
+            <i class="bi bi-list"></i>
+        </div>
+        
+        
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-bell text-light"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-question-circle text-light"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-envelope text-light"></i></a>
+          </li>
+          <li class="nav-item dropdown text-light">
+            <a class="nav-link dropdown-toggle" href="#" role="button" style="background-color: orangered; margin: 0px;" data-bs-toggle="dropdown" aria-expanded="false">
+              <img id="img01" src="/01.jpg" width="30px" style="border-radius: 50%;" alt=""> <span class="p-22 text-light">Rohit Patle</span> 
+            </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        </ul>
+      </nav>
+      <nav class="navbar navbar-expand navbar-light bg-light px-2 justify-content-start">
+         <h4>DeshBoard</h4>
+      </nav>
+      <hr style="padding: 0px; margin: 0px;">
+      
+      <div style="background-color: rgb(245, 244, 244);">
+      <div class="allcard row text-center justify-content-evenly pt-5 pb-5">
+        <div class="card p-2 cal-lg-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 17rem;">
+          <h1><i class="bi bi-person-fill text-danger"></i></h1>
+          <div class="card-body">
+            <h5 class="card-title">2500</h5>
+            <p class="card-text">Welcome</p>
+          </div>
+        </div>
+
+        <div class="card p-2 cal-lg-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 17rem;">
+          <h1><i class="bi bi-clock text-primary"></i></h1>
+          <div class="card-body">
+            <h5 class="card-title">123.50</h5>
+            <p class="card-text">Average Time</p>
+          </div>
+        </div>
+
+        <div class="card p-2 cal-lg-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 17rem;">
+          <h1><i class="bi bi-cloud-arrow-down-fill text-success"></i></h1>
+          <div class="card-body">
+            <h5 class="card-title">1805</h5>
+            <p class="card-text">Collactions</p>
+          </div>
+        </div>
+
+        <div class="card p-2 cal-lg-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 17rem;">
+          <h1><i class="bi bi-wechat text-danger"></i></i></h1>
+          <div class="card-body">
+            <h5 class="card-title">54</h5>
+            <p class="card-text">Comments</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="allcard row text-center justify-content-evenly pt-5 pb-5">
+        <div class="card p-2 cal-lg-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 17rem;">
+          <img src="/logo 01.png" style="height: 10rem;" class="card-img-top" alt="...">
+          <hr>
+          <div class="main" style="display: flex;
+          justify-content: space-between;">
+            <div class="card-body">
+              <h5 class="card-title">54</h5>
+              <p class="card-text">Comments</p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">2500</h5>
+              <p class="card-text">Welcome</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="card p-2 cal-lg-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 17rem;">
+          <img src="/03.jpg" style="height: 10rem;" class="card-img-top" alt="...">
+          <hr>
+          <div class="main" style="display: flex;
+          justify-content: space-between;">
+            <div class="card-body">
+              <h5 class="card-title">54</h5>
+              <p class="card-text">Comments</p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">2500</h5>
+              <p class="card-text">Welcome</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="card p-2 cal-lg-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 17rem;">
+          <img src="logo 02.png" style="height: 10rem;" class="card-img-top" alt="...">
+          <hr>
+          <div class="main" style="display: flex;
+          justify-content: space-between;">
+            <div class="card-body">
+              <h5 class="card-title">54</h5>
+              <p class="card-text">Comments</p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">2500</h5>
+              <p class="card-text">Welcome</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="card p-2 cal-lg-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 17rem;">
+          <img src="/02.jpg" style="height: 10rem;" class="card-img-top" alt="...">
+          <hr>
+          <div class="main" style="display: flex;
+          justify-content: space-between;">
+            <div class="card-body">
+              <h5 class="card-title">54</h5>
+              <p class="card-text">Comments</p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">2500</h5>
+              <p class="card-text">Welcome</p>
+            </div>
+        </div>
+        </div>
+      </div>
+
+      
+
+      <div class="row justify-content-evenly">
+
+
+        <div class="col-md-5 text-center shadow p-3 mb-5 bg-body-tertiary rounded" style=" padding: 50px; border: 1px solid gray; border-radius: 8px; background-color: rgb(35, 77, 168);">
+          <h2 class="pt-3 text-light">Testimonial</h2>
+          <hr style="font-weight: bold; color: white;">
+          <img src="/01.jpg" style="width: 130px; border-radius: 50%; margin: 60px;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-light">Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.</p>
+            <br>
+            <h5 class="card-title text-light">1805</h5>
+            <p class="card-text pb-3 text-success">Designed and built with all the </p>
+          </div>
+        </div>
+
+
+        <div class="col-md-5 shadow p-3 mb-5 bg-body-tertiary rounded" style=" padding: 50px; border: 1px solid gray; border-radius: 8px; background-color: white;">
+          <h2 class="pt-3">Progress Bar</h2>
+          <hr>
+          <h5 class="my-3">facebook</h5>
+          <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped" style="width: 60%"></div>
+          </div>
+
+          <h5 class="my-3">Twitter</h5>
+          <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped" style="width: 40%"></div>
+          </div>
+
+          <h5 class="my-3">Instagram</h5>
+          <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped" style="width: 80%"></div>
+          </div>
+
+          <h5 class="my-3">Youtube</h5>
+          <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped" style="width: 90%"></div>
+          </div>
+
+          <h5 class="my-3">Others</h5>
+          <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped" style="width: 50%"></div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row justify-content-evenly pt-5">
+
+
+        <div class="col-md-5 p-0 shadow p-3 mb-5 bg-body-tertiary rounded" style=" border: 1px solid gray; border-radius: 8px; padding-top: 15px;">
+          <h4 style="padding: 20px 20px; margin: 0px; background-color: #0A2558; color: white;"><i class="bi bi-calendar3 p-2 text-light" ></i>18 March 2023</h4>
+          
+          <div class="card-body" style="padding: 20px 30px; background-color: white;">
+            <p class="card-text ">Today task for Rohit Patle</p>
+          </div>
+          <hr style="font-weight: bold; margin: 0px;">
+          <div class="card-body p-0">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="padding-left: 40px;">
+                <p>Meeting about plan for Admin Template 2018</p>
+                <h6 style="font-weight: bold;">10:00 AM</h6>
+              </li>
+              <li class="list-group-item" style="padding-left: 40px;">
+                <p>Create new task for Dashboard</p>
+                <h6 style="font-weight: bold;">10:00 AM</h6>
+              </li>
+              <li class="list-group-item" style="padding-left: 40px;">
+                <p>Meeting about plan for Admin Template 2018</p>
+                <h6 style="font-weight: bold;">11:00 AM</h6>
+              </li>
+              <li class="list-group-item" style="padding-left: 40px;">
+                <p>Create new task for Dashboard</p>
+                <h6 style="font-weight: bold;">10:00 AM</h6>
+              </li>
+              <li class="list-group-item" style="padding-left: 40px;">
+                <p>Meeting about plan for Admin Template 2018</p>
+                <h6 style="font-weight: bold;">02:00 PM</h6>
+              </li>
+            </ul>
+            <div class="card-body p-4 text-center bg-light">
+              <button type="button" class="btn btn-success" style="padding: 10px 20px; font-weight: bold;">Read More</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-5 p-0 shadow p-3 mb-5 bg-body-tertiary rounded" style=" border: 1px solid gray; border-radius: 8px; padding-top: 15px;">
+          <h4 style="padding: 20px 20px; margin: 0px; background-color: #0A2558; color: white;"><i class="bi bi-wechat p-2 text-light"></i></i>Updates</h4>
+          <div class="card-body" style="padding: 20px 30px; background-color: white;">
+            <p class="card-text">User Confirmations</p>
+          </div>
+          <hr style="font-weight: bold; margin: 0px;">
+          <div class="card-body p-0">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="padding-left: 40px; display: flex; justify-content: flex-start;">
+  
+                  <img src="/01.jpg" width="80px" style="border-radius: 50%; padding: 5px;" alt="">
+            
+                <div class="cant" style="padding: 5px 20px;">
+                  <h6 style="font-weight: bold;">Rohit Patle</h6>
+                  <p>Meeting about plan for Admin Template</p>
+                </div>
+              </li>
+
+              <li class="list-group-item" style="padding-left: 40px; display: flex; justify-content: flex-start;">
+  
+                <img src="/01.jpg" width="80px" style="border-radius: 50%; padding: 5px;" alt="">
+          
+              <div class="cant" style="padding: 5px 20px;">
+                <h6 style="font-weight: bold;">John Smith</h6>
+                <p>In The Other Hands, We Denanouns</p>
+              </div>
+            </li>
+
+            <li class="list-group-item" style="padding-left: 40px; display: flex; justify-content: flex-start;">
+  
+              <img src="/01.jpg" width="80px" style="border-radius: 50%; padding: 5px;" alt="">
+        
+            <div class="cant" style="padding: 5px 20px;">
+              <h6 style="font-weight: bold;">Rohit Patle</h6>
+              <p>In The Other Hands, We Denanouns</p>
+            </div>
+          </li>
+
+          <li class="list-group-item" style="padding-left: 40px; display: flex; justify-content: flex-start;">
+  
+            <img src="/01.jpg" width="80px" style="border-radius: 50%; padding: 5px;" alt="">
+      
+          <div class="cant" style="padding: 5px 20px;">
+            <h6 style="font-weight: bold;">John Smith</h6>
+            <p>Meeting about plan for Admin Template</p>
+          </div>
+        </li>
+              
+            </ul>
+            <div class="card-body p-4 text-center bg-light">
+              <button type="button" class="btn btn-success" style="padding: 10px 20px; font-weight: bold;">Read More</button>
+            </div>
+          </div>
+        </div>
+
+
+        
+      </div>
+    </div>
+      </div>
+
+    </section>
+  </div>
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
